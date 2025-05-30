@@ -1,0 +1,184 @@
+.pp{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+
+}
+#image{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100vw;
+}
+.number{
+    color: red;
+    position: absolute;
+    top: 1px;
+    right: 1px;
+}
+.notification{
+    position: relative;
+}
+.profile{
+      display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center
+}
+#balance{
+    background-color: black;
+    position: relative;
+    
+    
+}
+.name{
+    font-size: 15px;
+}
+.wallet{
+    font-size: 15px;
+}
+.transaction{
+          display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.logout{
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.icon{
+    padding: 10px 10px 10px 10px;
+    border-radius: 50%;
+    
+}
+.icon-desc{
+    font-size: 10px;
+
+}
+.cont{
+
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+
+}
+.services{
+    background-color: rgba(187, 196, 194, 0.1);
+    flex: 0 0 45%;
+}
+.services-icon1{
+    background-color: rgba(239, 124, 142, 0.2);
+    color: rgba(239, 124, 142, 1); 
+}
+.services-icon2{
+    background-color: rgba(250, 232, 224, 0.2);
+    color: rgba(250, 232, 224, 1);
+}
+.services-icon3{
+    background-color: rgba(182,226,211, 0.2);
+    color: rgba(182,226,211, 1);
+}
+.services-icon4{
+    background-color: rgba(216, 167, 177, 0.2);
+    color: rgba(216, 167, 177, 1);
+}
+.recent-pp{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.recent-activity{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(187, 196, 194, 0.1);
+    justify-content:space-between ; 
+    flex: 0 0 45%; 
+} 
+
+.recent-child{
+    display: flex;
+    flex-direction: row;
+    align-items:center; 
+    justify-content: space-between;  
+}
+.details{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center  
+}
+.item-parent{
+    display: flex;
+    flex-direction: column;
+     
+}
+.item-container{
+     display: flex;
+    flex-direction: row;
+    justify-content: space-evenly; 
+    
+}
+.item-text{
+    font-size: 10px;
+}
+.profile-name{
+    font-size: 15px;
+}
+.trans-type{
+font-size: 15px;
+}
+
+@media (max-width:769px) {
+    .icon{
+       padding: 10px 10px 10px 10px;
+    }
+    .icon-desc{
+        display: inline-block;
+        margin-top: 10px;
+    }
+    .cont{
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .recent-activity{
+        flex: 0 0 90%;
+    }
+    .services{
+        flex: 0 0 90%;
+    }
+    .recent-amt{
+        font-size: 12px;
+        font-family:Arial, Helvetica, sans-serif;
+    }
+    #recent-details{
+        margin-left: 20px;
+    }
+    .recent-pp{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    }
+    .recent-child{
+        margin-top: 10px;
+    }
+
+    .dates{
+        font-size: 10px;
+    }
+    .logout{
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    font-size: 15px;
+    }
+}
